@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://use.fontawesome.com/723e19d504.js"></script>
+    <meta charset="utf-8" />
+    <title>Rsschool-cv-html</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <a class="nav-item" href="#about">About Me</a>
+        <a class="nav-item" href="#education">Education</a>
+        <a class="nav-item" href="#projects">Code example</a>
+        <a class="nav-item" href="#contact">Contacs</a>
+        <a class="nav-item" href="#hardskills">Hard Skills</a>
+    </nav>
+
+
+
+    <div class="wrapper">
+    <header>
+        <div class="main-container">
+            <div class="hero-block">
+                <img src="pfoto.jpg" alt="Portrait" height="220" width="200">
+                <h1>Vlad Sorochinski</h1>
+                <h2>Junior Frontend Developer</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <section class="information" id="about">
+                <div class="name">
+                    <h3>About Me</h3>
+                </div>
+                <p> I want to become an frontend developer. In 2017 graduated from the Belarusian-Russian
+                    University. I work
+                    as a software engineer (sap). My strengths are stress resistance, sociability.I like traveling,
+                    sports and reading</p>
+            </section>
+            <section class="information">
+                <div class="name" id="education">
+                    <h3>Education</h3>
+                </div>
+                <p> Belorussian-Russian university (2017 specialist)</p>
+                <p> QA courses (2021)</p>
+            </section>
+            <section>
+                <div class="name" id="projects">
+                    <h3>Code example</h3>
+                </div>
+                <p class="code"><code>
+    function checkParent (src, dest) {<Br>
+     while (src != null) {<Br>
+       if (src.tagName == dest) return src<Br>
+        src = src.parentElement<Br>
+     }<Br>
+     return null<Br>
+    }</code></p>
+            </section>
+
+        </div>
+        <aside class="aside1">
+            <section class="contacs-section">
+                <div class="section-header" id="contact">
+                    <h3>Contacs</h3>
+                </div>
+                <ul class="aside-list contacts-list">
+                    <li>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>+375291340166</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <p>yolosoroka@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p>Vilnius,Lithuania</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="contacs-section">
+                <div class="section-header" id="hardskills">
+                    <h3>Hard Skills</h3>
+                </div>
+                <ul class="aside-list contacts-list">
+                    <li>
+                        <i class="fa fa-git" aria-hidden="true"></i>
+                        <p>Git</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-html5" aria-hidden="true"></i>
+                        <p>Html</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-wrench" aria-hidden="true"></i>
+                        <p>JavaScript</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <p>Appium</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="contacs-section skill">
+                <div class="section-header">
+                    <h3>English</h3>
+                </div>
+                <p>Skill level: A2+</p>
+            </section>
+        </aside>
+    </main>
+    <footer>
+            <p>2022</p>
+            <i class="fa fa-github" aria-hidden="true"><a target="_blank" href="https://github.com/rytas11">GitHub</a></i>           
+            <a target="_blank" href="https://rs.school/js/"><img src="logo-rs.svg" alt="logo" height="50" width="50"></a>           
+    </footer>
+    </div>
+</body>
+</html>
